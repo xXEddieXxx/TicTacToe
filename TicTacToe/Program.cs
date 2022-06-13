@@ -1,4 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace TicTacToe;
 
-using TicTacToe;
-
+public class Programm
+{
+    public static void Main(string[] args)
+    {
+        var game = new Gamestart();
+        game.GameStart();
+    }
+}
