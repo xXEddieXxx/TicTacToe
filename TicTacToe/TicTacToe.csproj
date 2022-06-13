@@ -7,4 +7,13 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Update="Game.cs">
+        <DependentUpon>Gamestart.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Player.cs">
+        <DependentUpon>Gamestart.cs</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
 </Project>

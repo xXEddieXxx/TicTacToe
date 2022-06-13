@@ -18,7 +18,7 @@ public class Game
     {
         while (CheckWin() == false)
         {
-            if (_counter > 7)
+            if (_counter > 8)
             {
                 Draw();
                 break;
